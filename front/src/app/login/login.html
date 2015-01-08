@@ -1,0 +1,13 @@
+<div class="container">
+
+  <form ng-controller="LoginController" ng-submit="login()">
+    <h2 class="form-signin-heading">Please sign in</h2>
+
+    <input type="text" name="email" placeholder="email" ng-model="credentials.email" required />
+
+    <input type="password" name="password" placeholder="password" ng-model="credentials.password" required/>
+
+    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+  </form>
+
+</div>
